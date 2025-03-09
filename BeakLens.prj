@@ -1,0 +1,99 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="1131744204" file="E:\MAT program files\BeakLens.prj" location="E:\MAT program files" name="BeakLens" target="target.mlapps" target-name="Package App">
+    <param.appname>BeakLens</param.appname>
+    <param.authnamewatermark>Dk</param.authnamewatermark>
+    <param.email>vh12323_cse22@velhightech.com</param.email>
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary>Automatic bird image classification plays a crucial role in various applications like ecological monitoring and bird watching.</param.summary>
+    <param.description>Automatic bird species identification from images has become increasingly important in various fields, including ecological monitoring, citizen science initiatives, and biodiversity studies. Traditional methods for bird identification often rely on expert knowledge and visual inspection of field guides, which can be time-consuming, subjective, and require specialized skills. Deep learning, particularly convolutional neural networks (CNNs), has emerged as a powerful tool for automated image classification tasks. CNNs can effectively extract features from images and learn complex relationships between these features and corresponding classes. This has led to significant advancements in bird image classification accuracy, achieving performance comparable to human experts in some cases.This paper presents the development of a bird image classification system using Deep Network Designer, a user-friendly visual programming environment within MATLAB. By leveraging the capabilities of Deep Network Designer, we design and train a CNN architecture on a bird image dataset for accurate classification of different bird species.</param.description>
+    <param.screenshot>C:\Users\ADMIN\AppData\Local\Temp\tp83064df8_b888_4a72_99d9_26af7fe941c2.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>bf9ecda6-d1fc-4cd0-a60b-bcab5b20ca10</param.guid>
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\BeakLens.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\Bg img.png</file>
+      <file>${PROJECT_ROOT}\trainedNetwork_2.mat</file>
+    </fileset.depfun>
+    <fileset.resources>
+      <file>E:\Download\test_data</file>
+      <file>E:\Download\train_data</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="E:\" name="MAT program files" optional="false">E:\MAT program files</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2024a</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
